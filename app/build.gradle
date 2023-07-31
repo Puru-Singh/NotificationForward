@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    //id 'com.likethesalad.aaper' version '2.1.0'
 }
 
 android {
@@ -48,6 +49,8 @@ android {
 
 dependencies {
 
+    //implementation("androidx.appcompat:appcompat")
+    //implementation("androidx.appcompat:appcompat-resources")
     implementation 'androidx.core:core-ktx:1.10.1'
     implementation platform('org.jetbrains.kotlin:kotlin-bom:1.8.0')
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.1'
